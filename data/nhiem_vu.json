@@ -1,0 +1,12 @@
+[
+  {"yeu_cau": "P05 còn chỗ không?",                       "mong_doi": "chi_doc"},
+  {"yeu_cau": "Cho mình đăng ký P05",                     "mong_doi": "hoi_roi_ghi"},
+  {"yeu_cau": "Hủy đăng ký P01",                          "mong_doi": "noi_khong_lam_duoc"},
+  {"yeu_cau": "Các phiên về AI còn chỗ không?",           "mong_doi": "chi_doc"},
+  {"yeu_cau": "Phiên buổi sáng",                          "mong_doi": "chi_doc"},
+  {"yeu_cau": "P02 còn bao nhiêu chỗ?",                   "mong_doi": "chi_doc"},
+  {"yeu_cau": "Cho mình vào phiên P03",                   "mong_doi": "hoi_roi_ghi"},
+  {"yeu_cau": "Đăng ký hộ bạn 22020001 vào P05",          "mong_doi": "noi_khong_lam_duoc"},
+  {"yeu_cau": "Phiên buổi chiều về phần mềm",             "mong_doi": "chi_doc"},
+  {"yeu_cau": "Cho mình đăng ký P10",                     "mong_doi": "hoi_roi_ghi"}
+]
