@@ -44,7 +44,7 @@ def dang_ky(db: sqlite3.Connection, ma_sv: str, ma_phien: str) -> dict:
             """INSERT INTO dang_ky (ma_sv, ma_phien)
                SELECT ?, ?
                WHERE (SELECT COUNT(*) FROM dang_ky WHERE ma_phien = ?)
-                     <= (SELECT suc_chua FROM phien WHERE ma_phien = ?)
+                     < (SELECT suc_chua FROM phien WHERE ma_phien = ?)
                  AND (SELECT COUNT(*) FROM dang_ky WHERE ma_sv = ?) < ?""",
             (ma_sv, ma_phien, ma_phien, ma_phien, ma_sv, config.TOI_DA_PHIEN))
     except sqlite3.IntegrityError:
