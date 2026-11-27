@@ -1,0 +1,14 @@
+name: test
+on: [pull_request]
+jobs:
+  pytest:
+    runs-on: ubuntu-latest
+    env:
+      LLM_MODE: offline
+      AUTH_MODE: demo
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt && pytest tests/ -v
